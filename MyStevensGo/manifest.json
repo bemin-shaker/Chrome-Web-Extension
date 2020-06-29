@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "MyStevensGo",
+  "version": "0.1",
+  "description": "This is a sample description",
+
+  "browser_action": {
+   "default_title": "Does a thing when you do a thing",
+   "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+
+  "permissions": [
+      "activeTab",
+      "declarativeContent",
+      "storage",
+      "<all_urls>"
+  ]
+
+}
